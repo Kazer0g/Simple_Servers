@@ -1,10 +1,3 @@
-# Simple_Servers
-
-![[Python_Server]]
-
-## Python 
-
-```python
 import socket
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -20,4 +13,3 @@ data = client_socket.recv(1024).decode('utf-8')
 print (data)
 
 client_socket.send('Connected'.encode('utf-8'))
-```

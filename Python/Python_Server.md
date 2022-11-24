@@ -1,9 +1,3 @@
-# Simple_Servers
-
-![[Python_Server]]
-
-## Python 
-
 ```python
 import socket
 
